@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GOC</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style-index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
@@ -14,58 +14,168 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="img/menu.png" alt="ICONE">
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto text-right">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.html">Login</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            </ul>
-        </div>
+    <section id="nav-bar">
 
-        <div class="container">
-            <div class="wrapper">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="feature-box">
-                            <h1>Game Of Carrer</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dicta optio
-                                laboriosam?</p>
-                            <a href="cadastro.html" class="btn-One">Cadastre-se</a>
-                        </div>
-                    </div>
 
-                    <div class="col-md-6">
-                        <img src="img/fronttcc.png" alt="">
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="navbar-toggler-icon"></i>
+            </button>
 
-                </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"></li>
+                    <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Cadastro</a>
+                    </li>
+                    <li class="nav-item" id="login">
+                        <a class="nav-link " href="#"><button class="btn-Dois"> Login </button> </a>
+                    </li>
+
+                </ul>
             </div>
+    </section>
+    </nav>
 
+    <div class="container">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature-box">
+                        <h1>Game Of Carrer</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dicta optio
+                            laboriosam?</p>
+                        <a href="cadastro.html" class="btn-One">Cadastre-se</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="img/fronttcc.png" class="img-fluid" alt="">
+                </div>
+
+            </div>
         </div>
 
+    </div>
+    <img src="img/suco.png" class="img-fluid" id="suco" alt="">
     </header>
 
-    <img src="img/bg-sucos.png" class="wave-image" alt="">
+
+
+    <!--Serviços-->
+
+    <section id="services">
+        <div class="container text-center">
+            <h1 class="title">Sobre o GOC</h1>
+            <div class="row text-center">
+                <div class="col-md-4 services">
+                    <img src="img/forma1.png" class="service-img" alt="">
+                    <h4>O que é ?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dicta optio
+                        laboriosam?</p>
+                </div>
+
+                <div class="col-md-4 services">
+                    <img src="img/forma2.png" class="service-img" alt="">
+                    <h4>O que faz ?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dicta optio
+                        laboriosam?</p>
+                </div>
+
+                <div class="col-md-4 services">
+                    <img src="img/forma3.png" class="service-img" alt="">
+                    <h4>Como usar ?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dicta optio
+                        laboriosam?</p>
+                </div>
+
+            </div>
+            <a href="cadastro.html"> <button type="button" class="btn btn-primary">Cadastre-se</button> </a>
+        </div>
+    </section>
+    <!--funcionalidades-->
+
+    <section id="vantagens">
+        <div class="container">
+            <h1 class="title text-center">Funcionalidades</h1>
+            <div class="row">
+                <div class="col-md-6 vantagens">
+                    <p class="about-title">Quais são as funcionalidades ? </p>
+                    <ul>
+                        <li> Dolor sit amet consectetur adipisicing elit. Voluptatum dicta optio</li>
+                        <li> Dolor sit amet consectetur adipisicing elit. Voluptatum dicta optio</li>
+                        <li> Dolor sit amet consectetur adipisicing elit. Voluptatum dicta optio</li>
+                        <li> Dolor sit amet consectetur adipisicing elit. Voluptatum dicta optio</li>
+                        <li> Dolor sit amet consectetur adipisicing elit. Voluptatum dicta optio</li>
+                        <li> Dolor sit amet consectetur adipisicing elit. Voluptatum dicta optio</li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="img/estudantePrancheta 2.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Depoimentos-->
+
+    <section id="testimonials">
+        <div class="container">
+            <h1 class="title text-center">Depoimentos</h1>
+            <div class="row offset-1">
+                <div class="col-md-5 testimonials">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dicta optio
+                        laboriosam?</p>
+                    <img src="img/user1.jpg" alt="">
+                    <p class="user-details"><b>Lucas Aragão</b><br>Idealizador e Programador</p>
+                </div>
+
+                <div class="col-md-5 testimonials">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dicta optio
+                        laboriosam?</p>
+                    <img src="img/user2.jpg" alt="">
+                    <p class="user-details"><b>Luiz Mauricio</b><br>Co-Fundador e Mentor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+        Midias sociais
+    -->
+
+    <section id="social-media">
+        <div class="container text-center">
+            <h1 class="title text-center">Sociais</h1>
+            <div class="social-icons">
+                <a href=""><img src="img/icon-fb.png" alt=""></a>
+                <a href=""><img src="img/icon-int.png" alt=""></a>
+                <a href=""><img src="img/icon-link.png" alt=""></a>
+                <a href=""><img src="img/icon-git.png" alt=""></a>
+            </div>
+
+
+        </div>
+        </div>
+
+    </section>
+
+
+
+
 </body>
 
 </html>
